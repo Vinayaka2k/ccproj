@@ -1,0 +1,5 @@
+ipython
+flask
+pika
+kazoo
+docker

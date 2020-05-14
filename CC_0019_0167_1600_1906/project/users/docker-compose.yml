@@ -1,0 +1,12 @@
+version: '3.1'
+
+services:
+  users:
+    container_name : "users"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python users.py
+    restart: on-failure
+    ports:
+      - "80:5000"
