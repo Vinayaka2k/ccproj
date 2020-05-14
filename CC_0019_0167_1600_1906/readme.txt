@@ -14,7 +14,7 @@ Folders inside project :
 	3. docker-compose
 
 - Users folder has following files : 
-	1. rides.py : Code that is executed inside users instance.
+	1. users.py : Code that is executed inside users instance.
 	2. Dockerfile
 	3. docker-compose
 
