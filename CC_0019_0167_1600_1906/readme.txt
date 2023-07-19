@@ -25,3 +25,16 @@ Folders inside project :
 Execution : 
 
 To run these files, just go to all 3 directories - users, rides and orchestartor and execute sudo docker-compose up so that all 3 containers are created. Then we can call the apis accordingly. 
+
+
+PROJECT DETAILS: 
+
+* Use the 
+
+
+
+
+
+
+
+
