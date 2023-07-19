@@ -29,7 +29,7 @@ To run these files, just go to all 3 directories - users, rides and orchestartor
 
 PROJECT DETAILS: 
 
-* Use the 
+* AA
 
 
 
