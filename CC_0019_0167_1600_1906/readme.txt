@@ -1,8 +1,8 @@
-* For assignment 1, both users and rides implementation are done in a single file.
+For assignment 1, both users and rides implementation are done in a single file.
 
-* For assignment 2, users and rides are split into seperate microservices and therefore they have seperate databases and they are implemented in seperate python files.
+For assignment 2, users and rides are split into seperate microservices and therefore they have seperate databases and they are implemented in seperate python files.
 
-* For assignment 3, we add an application load balancer to the existing users and rides microservices and define rules so that the requests are redirected properly.
+For assignment 3, we add an application load balancer to the existing users and rides microservices and define rules so that the requests are redirected properly.
 
 For the final project, we use orchestator for reading/writing the database and this orchestator will be running in a seperate ec2 instance. 
 
@@ -29,8 +29,9 @@ To run these files, just go to all 3 directories - users, rides and orchestartor
 
 PROJECT DETAILS: 
 
-* Asadsadsad
+users.py is the flask application that is run inside a container with a python env and contains code to perform CRUD operations on Users. Similarly, rides.py is the flask application that is run inside another container and contains code for performing CRUD on Rides. The DB read/write are abstracted from the users program and are performed by the DBaaS service, which exposes a URL that is used by the users and rides services to access the DB. 
 
+producer.py is a flask application for the orchestrator 
 
 
 
